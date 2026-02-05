@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.23",
+    "@types/node": "^25.0.10",
+    "typescript": "^5.9.3"
+  }
+}
