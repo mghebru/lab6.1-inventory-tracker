@@ -22,15 +22,25 @@ npx tsc --init
 Set up a basic folder structure for the project:
 
 inventory-tracker/
+
 ├── src/
+
 │   ├── models/
+
 │   │   ├── Product.ts
+
 │   │   ├── PhysicalProduct.ts
+
 │   │   └── DigitalProduct.ts
+
 │   ├── utils/
+
 │   │   └── taxCalculator.ts
+
 │   └── main.ts
+
 └── tsconfig.json
+
 Create the Product Base Class:
 
 **Inside src/models/Product.ts, create a Product base class with the following:**
